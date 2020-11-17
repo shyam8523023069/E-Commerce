@@ -1,0 +1,36 @@
+{
+  "name": "node-react-ecommerce",
+  "version": "1.0.0",
+  "description": "Welcome to my React and Node tutorial to build a fully-functional e-commerce website in 5 hours. Open your code editor and follow me for the next hours to build an e-commerce website using React and Node.JS.",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.792.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyam8523023069/E-Commerce.git"
+  },
+  "author": "shyam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shyam8523023069/E-Commerce/issues"
+  },
+  "homepage": "https://github.com/shyam8523023069/E-Commerce#readme"
+}
